@@ -33,10 +33,12 @@ Page({
     //判断是用户是否绑定了openid，如果没有则此处加入 callback 以防止这种情况，该函数供app.js中使用
     if (app.globalData.openId && app.globalData.openId != '') {
       app.openidReadyCallback = res => {
-        console.log("index.js:openid:" + getApp().globalData.openId)
+        console.log("index.js:openid:" + app.globalData.openId)
         app.globalData.openId = res.data.openid
       }
     }
+
+    // console.log("index.js:openid:" + app.globalData.openId)
 
     //获取用户基本信息
     if (app.globalData.userInfo) {

@@ -11,6 +11,9 @@ App({
   },
 
   onLaunch: function () {
+
+    var that = this; 
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -38,9 +41,8 @@ App({
               if (code=='1')
               {
                 console.log("登录成功，后台获取了数据")
-                // this.globalData.openId = res.data.openid
-                // this.globalData.userInfo = res.data.openid
-                console.log("++++++++++++++++++++" + this.globalData.test)
+                that.globalData.openId = res.data.openid
+                // console.log("++++++++++++++++++++" + that.globalData.test)
                 
                 // 由于是网络请求，可能会在 Page.onLoad 之后才返回
                 // 所以此处加入 callback 以防止这种情况
