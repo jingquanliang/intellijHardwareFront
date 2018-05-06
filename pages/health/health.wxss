@@ -1,0 +1,61 @@
+/* pages/health/health.wxss */
+
+page{
+  height:100%;
+}
+
+.allHealthTab{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+   align-content:stretch ; 
+  justify-content:space-between;
+  align-items: center; 
+  margin-top: 0;
+}
+
+.container {
+  padding: 0;
+  align-items:stretch;
+}
+
+.healthTab{
+  border-width: 4rpx 4rpx;  
+  border-color: #cdcdcd;  
+  border-style: solid;
+  height: 40px;
+  align-items: center; 
+  font: 18px/15px arial;  
+  color:#515151;
+  line-height: 40px;
+}
+.table{
+    border:1px solid #dadada;
+    border-right: 0;
+    border-bottom:0;
+    width: 100%;
+}
+.tr{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: nowrap;
+} 
+
+.th,.td {
+  /* padding: 10px; */
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+  width:100%;
+  font: 18px/15px arial;  
+  color:#515151;
+  height: 40px;
+  line-height: 40px;
+}
+.th {
+  font-weight: 400;
+  background-color: #dadada
+}
+
+

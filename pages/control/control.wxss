@@ -1,0 +1,156 @@
+/* pages/control.wxss */
+
+page{
+  height:100%;
+}
+
+.container {
+  padding: 0;
+  /* align-items:stretch; */
+}
+
+.drying{
+   height: 25%; 
+}
+.back{
+   height: 25%; 
+}
+.wash{
+  height: 50%; 
+}
+
+.common{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  width: 98%;
+  /* height: 30%; */
+  /* padding-top: 20rpx; */
+  /* align-content:stretch ; 
+  justify-content:space-between;
+  align-items: center;  */
+}
+
+.wash{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+}
+
+
+.washcolumn1{
+  width:30%;
+  height: 100%;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.viewHeigh{
+  height: 100%;
+  align-items:center;
+}
+
+
+
+.washTips{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100%;
+}
+
+.washTipsHeigh{
+  height: 50%;
+  align-items:center;
+}
+
+.washcolumn2{
+  width:70%;
+  height: 100%;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-left:1px solid #dadada;
+}
+
+.washcolumn2Common{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  width: 98%;
+  height: 30%;
+  padding-top: 10rpx;
+}
+
+.borderUp{
+    border-top:1px solid #dadada;
+    border-bottom:0;
+    width: 100%;
+}
+
+.commonText{
+    display: flex;
+    justify-content:flex-end;
+    /* height: 20px;
+    line-height: 20px; */
+    padding-top: 20rpx;
+    padding-right: 20px;
+    font: 15px/15px arial;  
+    color:#515151;
+}
+
+.commonAction{
+    display: flex; 
+    flex-direction: row;
+    padding-right: 20px;
+    font: 15px/15px arial;  
+    color:#515151;
+    align-items: center;
+    height:100%;
+}
+
+.tips{
+  width: 30%;
+}
+
+.action{
+  align-items: center;
+  width: 70%;
+}
+
+.tipsText{
+  padding-left: 20rpx;
+}
+
+.table{
+    border:1px solid #dadada;
+    border-right: 0;
+    border-bottom:0;
+    width: 100%;
+}
+.tr{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: nowrap;
+} 
+
+.th,.td {
+  /* padding: 10px; */
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+  width:100%;
+  font: 18px/15px arial;  
+  color:#515151;
+  height: 40px;
+  line-height: 40px;
+}
+.th {
+  font-weight: 400;
+  background-color: #dadada
+}

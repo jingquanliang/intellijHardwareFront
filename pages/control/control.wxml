@@ -1,0 +1,103 @@
+<!--pages/control.wxml-->
+<view class="container">
+    <view class="common back borderUp">
+      <view class="commonText">
+        <text>设为默认</text>
+      </view>
+      <view class="commonAction">
+        
+        <view class="tips"> <text class="tipsText">靠背</text></view>
+        <view class="action">
+          <text class="section__title">设置值</text>
+          <view class="body-view">
+              <slider bindchange="sliderBackChange" min="50" max="200" show-value/>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="common wash borderUp">
+      <view class="washcolumn1">
+        <view class="commonText viewHeigh">
+          <text>冲洗</text>
+        </view>
+        <view class="washTips">
+           <view class="commonText washTipsHeigh">
+              <text>臀部</text>
+           </view>
+           <view class="commonText washTipsHeigh borderUp">
+              <text>女性</text>
+           </view>
+        </view>
+      </view>
+      <view class="washcolumn2">
+        <view class='washcolumn2Common'>
+            <view class="commonText">
+              <text>设为默认</text>
+            </view> 
+            <view class="commonAction">
+              <view class="tips"> <text class="tipsText">喷杆</text></view>
+              <view class="action">
+                <text class="section__title">设置值</text>
+                <view class="body-view">
+                    <slider bindchange="sliderBackChange" min="50" max="200" show-value/>
+                </view>
+              </view>
+            </view> 
+        </view>
+        <view class='washcolumn2Common borderUp'>
+            <view class="commonText">
+              <text>设为默认</text>
+            </view> 
+            <view class="commonAction">
+              <view class="tips"> <text class="tipsText">水温</text></view>
+              <view class="action">
+                <text class="section__title">设置值</text>
+                <view class="body-view">
+                    <slider bindchange="sliderBackChange" min="50" max="200" show-value/>
+                </view>
+              </view>
+            </view> 
+        </view>
+        <view class='washcolumn2Common borderUp'>
+            <view class="commonText">
+              <text>设为默认</text>
+            </view> 
+            <view class="commonAction">
+              <view class="tips"> <text class="tipsText">水压</text></view>
+              <view class="action">
+                <text class="section__title">设置值</text>
+                <view class="body-view">
+                    <slider bindchange="sliderBackChange" min="50" max="200" show-value/>
+                </view>
+              </view>
+            </view> 
+        </view>
+      
+      </view>
+
+    </view>
+
+    <view class="common drying borderUp">
+      <view class="commonText">
+        <text>设为默认</text>
+      </view>
+      <view class="commonAction">
+        <view class="tips"> <text class="tipsText">烘干</text></view>
+        <view class="action">
+          <text class="section__title">设置值</text>
+          <view class="body-view">
+              <slider bindchange="sliderDryChange" min="50" max="200" show-value/>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="table">
+      <view class="tr">    
+        <view class='td'>开盖</view>
+        <view class='td'>转盘</view>
+        <view class='td'>冲水</view>
+        <view class='td'>自动设置</view>
+      </view>
+    </view>
+</view>

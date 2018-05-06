@@ -31,10 +31,10 @@ Page({
   onLoad: function () {
 
     //判断是用户是否绑定了openid，如果没有则此处加入 callback 以防止这种情况，该函数供app.js中使用
-    if (app.globalData.openId && app.globalData.openId != '') {
+    if (app.globalData.sessionId && app.globalData.sessionId != '') {
       app.openidReadyCallback = res => {
-        console.log("index.js:openid:" + app.globalData.openId)
-        app.globalData.openId = res.data.openid
+        console.log("index.js:openid:" + app.globalData.sessionId)
+        app.globalData.sessionId = res.data.openid
       }
     }
 
@@ -78,5 +78,24 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+
+  printSessionId: function(e){
+    console.log("sessionId:" + app.globalData.sessionId)
+    // // 允许从相机和相册扫码
+    // wx.scanCode({
+    //   success: (res) => {
+    //     console.log(res)
+    //   }
+    // })
+  },
+  wxStartScan: function (e) {
+    console.log("开始扫描二维码")
+    // 允许从相机和相册扫码
+    wx.scanCode({
+      success: (res) => {
+        console.log(res.result)
+      }
+    })
+  },
 })

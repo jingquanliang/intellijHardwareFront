@@ -5,7 +5,7 @@ App({
 
   globalData: {
     userInfo: null,
-    openId: "",
+    sessionId: "",
     test:"sldjfljsdljf",
     code:null
   },
@@ -34,14 +34,14 @@ App({
               code: res.code
             },
             success: function (res) {
-              // console.log(res)
+              console.log(res)
               // console.log(typeof(res.data))
               var code = res.data.code
               console.log(code + ":" + res.data.openid)
               if (code=='1')
               {
                 console.log("登录成功，后台获取了数据")
-                that.globalData.openId = res.data.openid
+                that.globalData.sessionId = res.data.openid
                 // console.log("++++++++++++++++++++" + that.globalData.test)
                 
                 // 由于是网络请求，可能会在 Page.onLoad 之后才返回
@@ -83,6 +83,11 @@ App({
           })
         }
       }
+    })
+
+    wx.setTabBarBadge({
+      index: 0,
+      text: '1'
     })
   }
 })

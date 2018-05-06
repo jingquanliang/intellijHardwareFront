@@ -1,12 +1,45 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/health/health",
+    "pages/setting/setting",
+    "pages/control/control"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChaterrh",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "resources/images/home.png",
+        "iconPath": "resources/images/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "resources/images/control.png",
+        "iconPath": "resources/images/control.png",
+        "pagePath": "pages/control/control",
+        "text": "控制"
+      },
+      {
+        "selectedIconPath": "resources/images/health.png",
+        "iconPath": "resources/images/health.png",
+        "pagePath": "pages/health/health",
+        "text": "健康"
+      },
+      {
+        "selectedIconPath": "resources/images/setting.png",
+        "iconPath": "resources/images/setting.png",
+        "pagePath": "pages/setting/setting",
+        "text": "设置"
+      }
+    ]
   }
 }

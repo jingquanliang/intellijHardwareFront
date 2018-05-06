@@ -1,0 +1,15 @@
+<!--pages/health/health.wxml-->
+<view class="container">
+  <view class="healthData"></view>
+  <view class="table">
+    <view class="tr">    
+      <view class='td'>心率</view>
+      <view class='td'>血压</view>
+      <view class='td'>心电</view>
+      <view class='td'>心变</view>
+      <view class='td'>体温</view>
+      <view class='td'>尿</view>
+      <view class='td'>肾功</view>
+    </view>
+  </view>
+</view>
