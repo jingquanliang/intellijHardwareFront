@@ -1,8 +1,55 @@
-.log-list {
+/* .log-list {
   display: flex;
   flex-direction: column;
   padding: 40rpx;
 }
 .log-item {
   margin: 10rpx;
+} */
+
+page{
+  height:100%;
+}
+
+
+.container {
+  padding: 0;
+  align-items:stretch;
+  
+}
+
+.healthData{
+  flex: 1 0 auto;
+}
+
+.table1{
+    border:1px solid #dadada;
+    border-right: 0;
+    border-bottom:0;
+    width: 100%; 
+    align-self: flex-end;
+    flex: 0 0 40px;
+}
+.tr{
+   width: 100%; 
+   display: flex;
+   /* justify-content:space-between; */
+   flex-wrap: nowrap; 
+} 
+
+.th,.td {
+  /* padding: 10px; */
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+   /* width:100%;  */
+  flex:1 0 auto;
+  font: 18px/15px arial;  
+  color:#515151;
+  height: 40px;
+  line-height: 40px;
+}
+.th {
+  font-weight: 400;
+  background-color: #dadada
 }

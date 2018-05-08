@@ -18,5 +18,5 @@
   <!-- <view>{{object.key}} {{array[1]}}</view> -->
   <!-- <view wx:for="{{[zero, 1, 2, 3, 4]}}"> {{item}} </view> -->
   <!-- <button bindtap="printSessionId">点击输出sessionid信息</button>  -->
-  <template is="objectCombine" data="{{for: a, bar: b}}"></template>
+  <!-- <template is="objectCombine" data="{{for: a, bar: b}}"></template> -->
 </view>

@@ -1,6 +1,27 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
+<!-- <view class="container log-list">
+   <block wx:for="{{logs}}" wx:for-item="log">
     <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+  </block> 
+</view> -->
+
+<view class="container">
+  <view class="healthData">
+    <button>点我呀</button>
+  </view>
+  <view class="healthData">
+    <button>点我呀2</button>
+  </view>
+  <view class="table1">
+    <view class="tr">    
+      <view class='td'>心率</view>
+      <view class='td'>血压</view>
+       <view class='td'>心电</view>
+      <view class='td'>心变</view>
+      <!-- <view class='td'>体温</view>
+      <view class='td'>尿</view>
+      <view class='td'>肾功</view>  -->
+    </view>
+  </view>
 </view>
+

@@ -8,7 +8,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChaterrh",
+    "navigationBarTitleText": "扫码使用",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
