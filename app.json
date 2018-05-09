@@ -2,8 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/health/health",
-    "pages/setting/setting",
-    "pages/control/control"
+    "pages/control/control",
+    "pages/discover/discover"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -35,10 +35,10 @@
         "text": "健康"
       },
       {
-        "selectedIconPath": "resources/images/setting.png",
-        "iconPath": "resources/images/setting.png",
-        "pagePath": "pages/setting/setting",
-        "text": "设置"
+        "selectedIconPath": "resources/images/discover.png",
+        "iconPath": "resources/images/discover.png",
+        "pagePath": "pages/discover/discover",
+        "text": "发现"
       }
     ]
   }
