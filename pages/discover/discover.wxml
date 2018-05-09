@@ -1,0 +1,29 @@
+<view class="container">
+  <view class='content'>
+      <view class="item" bindtap="toSocial">
+        <image class="imageLable" src="resources/images/social.png"></image>
+        <text class="itemText">社交</text>
+      </view>
+      <view class="item">
+        <image class="imageLable" src="resources/images/game.png"></image>
+        <text class="itemText">游戏</text>
+      </view>
+      <view class="item">
+        <image class="imageLable" src="resources/images/news.png"></image>
+        <text class="itemText">新闻</text>
+      </view>
+      <view class="item">
+        <image class="imageLable" src="resources/images/ads.png"></image>
+        <text class="itemText">广告</text>
+      </view>
+      <view class="item">
+        <image class="imageLable" src="resources/images/trade2.png"></image>
+        <text class="itemText">交易</text>
+      </view>
+      <view class="item">
+        <image class="imageLable" src="resources/images/book.png"></image>
+        <text class="itemText">听书</text>
+      </view>
+  </view>
+</view>
+

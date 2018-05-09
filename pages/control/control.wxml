@@ -18,7 +18,7 @@
 
     <view class="common wash borderUp">
       <view class="washcolumn1">
-        <view class="commonText viewHeigh">
+        <view class="commonText viewHeigh tipsText washText">
           <text>冲洗</text>
         </view>
         <view class="washTips">

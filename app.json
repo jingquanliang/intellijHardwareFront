@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/health/health",
     "pages/control/control",
-    "pages/discover/discover"
+    "pages/discover/discover",
+    "pages/discover/nearPerson/nearPerson"
   ],
   "window": {
     "backgroundTextStyle": "light",

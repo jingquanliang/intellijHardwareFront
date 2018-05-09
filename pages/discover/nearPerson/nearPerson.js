@@ -1,5 +1,5 @@
-//logs.js
-const util = require('../../utils/util.js')
+//discover.js
+const util = require('../../../utils/util.js')
 
 var initFilterTitle = '过滤'
 var initFilterContent =""

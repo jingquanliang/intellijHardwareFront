@@ -52,7 +52,10 @@ page{
   align-items:center;
 }
 
+.washText{
+  padding-top: 0 !important;
 
+}
 
 .washTips{
   display: flex;
