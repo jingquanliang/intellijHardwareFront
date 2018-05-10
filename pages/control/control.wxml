@@ -22,10 +22,10 @@
           <text>冲洗</text>
         </view>
         <view class="washTips">
-           <view class="commonText washTipsHeigh">
+           <view class="commonText washTipsText">
               <text>臀部</text>
            </view>
-           <view class="commonText washTipsHeigh borderUp">
+           <view class="commonText washTipsText borderUp">
               <text>女性</text>
            </view>
         </view>
