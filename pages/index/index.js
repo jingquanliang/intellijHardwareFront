@@ -98,4 +98,21 @@ Page({
       }
     })
   },
+  onShareAppMessage: function (res) {
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+    return {
+      title: '智能马桶，让你的屁股每一天都很蓝!',
+      path: '/pages/index/index?id=123',
+      imageUrl:'/resources/images/share-index.jpg',
+      success: function (res) {
+        // 转发成功
+      },
+      fail: function (res) {
+        // 转发失败
+      }
+    }
+  }
 })
