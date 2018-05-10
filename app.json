@@ -19,25 +19,25 @@
     "list": [
       {
         "selectedIconPath": "resources/images/home.png",
-        "iconPath": "resources/images/home.png",
+        "iconPath": "resources/images/home-default.png",
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
         "selectedIconPath": "resources/images/control.png",
-        "iconPath": "resources/images/control.png",
+        "iconPath": "resources/images/control-default.png",
         "pagePath": "pages/control/control",
         "text": "控制"
       },
       {
         "selectedIconPath": "resources/images/health.png",
-        "iconPath": "resources/images/health.png",
+        "iconPath": "resources/images/health-default.png",
         "pagePath": "pages/health/health",
         "text": "健康"
       },
       {
         "selectedIconPath": "resources/images/discover.png",
-        "iconPath": "resources/images/discover.png",
+        "iconPath": "resources/images/discover-default.png",
         "pagePath": "pages/discover/discover",
         "text": "发现"
       }

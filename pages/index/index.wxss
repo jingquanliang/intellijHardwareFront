@@ -31,7 +31,8 @@
 .DimensionText{
     /* margin-top:-25rpx; */
     font: bold 25px/25px arial;
-    color:#1afa29;
+    /* color:#1afa29; */
+    color:#1296db;
 }
 
 .userinfo-nickname {
